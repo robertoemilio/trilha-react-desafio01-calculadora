@@ -5,7 +5,6 @@ import Button from './components/Button';
 import { Container, Content, Row } from './styles';
 import { useState } from 'react';
 
-
 const App = () => {
   const [currentNumber, setCurrentNumber] = useState('0');
   const [firstNumber, setFirstNumber] = useState('0');
